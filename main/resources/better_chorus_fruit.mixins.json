@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "better_chorus_fruit.modid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"ChorusFruitTeleportMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

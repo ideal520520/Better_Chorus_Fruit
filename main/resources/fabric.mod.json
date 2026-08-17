@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "better_chorus_fruit",
+	"version": "${version}",
+	"name": "Better_Chorus_Fruit",
+	"description": "Eating ChorusFruit in the void saves your life",
+	"authors": [
+		"ideal520520!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-v3.0",
+	"icon": "assets/better_chorus_fruit/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"better_chorus_fruit.modid.Better_Chorus_Fruit"
+		]
+	},
+	"mixins": [
+		"better_chorus_fruit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
